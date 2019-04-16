@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by dudaskatica (http://jsbin.com/dowihac/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="my-namecard">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/36428015_1856178941109759_3916336714490052608_o.jpg?_nc_cat=105&_nc_ht=scontent-vie1-1.xx&oh=89be8c9a235846c67638cd7cad169aa5&oe=5D27A4CA);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Tahoma;
+  font-size: 1rem;
+}
+
+img{
+  display: block;
+  width: 10rem;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picture{
+  margin-top: -5rem;
+}
+
+.all-content{
+  background-color: rgba(255,255,255,0.7);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 1.5rem;
+  max-width: 40rem;
+}
+
+.personal-data{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height:1.3;
+}
+
+.personal-data h1{
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  font-size: 1.1rem;
+}
+
+.personal-data p{
+  letter-spacing: 0.001rem;
+  padding-bottom: .5rem;
+  font-size: .99rem;
+}
+
+.personal-data small{
+  font-size: .9rem;
+}
+
+li{
+  display: inline;
+}
+
+.main{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.description{
+  border-top: 1px solid black;
+  padding-top: 1.9rem;
+  padding-bottom: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.02rem;
+  text-align: justify;
+}
+
+.contact{
+  padding: 0.9rem;
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+.contact p{
+  padding-bottom: 1rem;
+}
+
+.fab, .far, .fas{
+  color: dimgrey;
+}
+
+.far:hover, .fas:hover, .fab:hover{
+  color: #333333;
+  transition: color .3s ease-in-out;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition: transform .8s ease-in-out;
+}
+
+@media (max-width:380px){
+  .description{
+    font-size: .85rem;
+    padding-top: .9rem;
+    padding-bottom: .5rem;
+  }
+  .picture{
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width:760px){
+  .description{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+  }
+  .personal-data h1{
+    font-size: 1.7rem;
+  }
+  .personal-data p{
+    font-size: 1.2rem;
+  }
+  .contact p{
+    font-size: 1.2rem;
+  }
+}
+  
+  
+  
+  
+  
+  
+}
+</style>
+</head>
+<body>
+  <div class="all-content">
+    <div class="picture">
+      <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/36408566_1856176867776633_214217725885546496_n.jpg?_nc_cat=110&_nc_ht=scontent-vie1-1.xx&oh=68e5563c672a1190aa5d956738a8db7d&oe=5D114001" alt="photo of Katalin Dudas" >
+    </div>
+    <div class="personal-data">
+      <h1>Katalin Dudás, PhD</h1>
+      <p>MS in Economics</p>
+      <small>from</small>
+      <div class="place">
+        <ul>
+          <li><a href="https://www.google.hu/maps/place/P%C3%A9cs/@46.0778307,18.1805419,12z/data=!3m1!4b1!4m5!3m4!1s0x4742b111ea3252e3:0x400c4290c1e1200!8m2!3d46.0727345!4d18.232266"><i class="fas fa-map-marker-alt fa-lg"></i></a></li>
+          <li>Pécs, HU</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="description">
+        <p>I wrote my PhD thesis about environmentally friendly consumer behaviour. I have been being highly involved in environmentalism and trying to get to know more and more about the green counsumers of all shades. My hobby is baking leavened bread, I even have my own leavens I bring them up with love and very carefully just as my three children.</p>
+      </div>
+      <div class="contact">
+        <p>Contact me via</p>
+        <ul>
+          <a href="https://www.facebook.com/katalin.dudas.948"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/dud%C3%A1s-katalin-phd-16bb7a1a/"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="#"><i class="far fa-envelope fa-2x"></i></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
